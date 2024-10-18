@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Submit Your Recipe - Foodie's Delight</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Header Section -->
+  <header>
+    <div class="logo">
+      <h1><a href="index.html">Foodie's Delight</a></h1>
+    </div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="categories.html">Categories</a></li>
+        <li><a href="recipe-of-the-day.html">Recipe of the Day</a></li>
+        <li><a href="popular-recipes.html">Popular Recipes</a></li>
+        <li><a href="submit-recipe.html">Submit Your Recipe</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Recipe Submission Form -->
+  <section class="submit-recipe">
+    <h2>Submit Your Recipe</h2>
+    <form id="recipe-form">
+      <label for="name">Your Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Your Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="recipe-title">Recipe Title:</label>
+      <input type="text" id="recipe-title" name="recipe-title" required>
+
+      <label for="ingredients">Ingredients:</label>
+      <textarea id="ingredients" name="ingredients" rows="4" required></textarea>
+
+      <label for="instructions">Instructions:</label>
+      <textarea id="instructions" name="instructions" rows="6" required></textarea>
+
+      <button type="submit">Submit Recipe</button>
+    </form>
+  </section>
+
+  <!-- Footer Section -->
+  <footer>
+    <p>&copy; 2024 Foodie's Delight | All Rights Reserved</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
